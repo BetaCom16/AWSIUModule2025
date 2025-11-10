@@ -1,7 +1,10 @@
+# .gitignore
+
 # Lokale Terraform-Dateien
 **/.terraform/
 *.tfstate
 *.tfstate.backup
+.terraform.lock.hcl 
 
 # Absturz-Logs
 crash.log
