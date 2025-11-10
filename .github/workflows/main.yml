@@ -29,9 +29,12 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
+        working-directory: 02_infrastructure
 
       - name: Terraform Plan
         run: terraform plan -input=false
+        working-directory: 02_infrastructure
 
       - name: Terraform Apply
         run: terraform apply -auto-approve -input=false
+        working-directory: 02_infrastructure 
