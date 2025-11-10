@@ -1,0 +1,11 @@
+# Lokale Terraform-Dateien
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Absturz-Logs
+crash.log
+
+# Überschreibungsdateien
+*.tfvars
+*.tfvars.json
