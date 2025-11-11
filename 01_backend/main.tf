@@ -10,7 +10,6 @@ variable "lock_table_name" {
   default     = "terraform-state-lock"
 }
 
-
 resource "aws_s3_bucket" "tf_state_bucket" {
   bucket = var.state_bucket_name
 
